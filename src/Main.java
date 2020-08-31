@@ -4,10 +4,9 @@ public class Main {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
-        int grade;
 
         System.out.println("Gib eine Note zwischen 1 & 5 ein");
-        grade = sc.nextInt();
+        int grade = sc.nextInt();
 
         if (grade >= 1 && grade <= 5) {
             switch (grade) {
